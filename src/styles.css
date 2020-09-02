@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+body {
+  background: linear-gradient(to right, #fc00ff, #00dbde);
+  font-family: "Oswald", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: hsla(0, 0%, 0%, 0.144);
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.li-item {
+  margin: 0 35px;
+}
+
+/* tamaño iconos */
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 7px;
+}
+
+.facebook {
+  margin-left: 10px;
+}
+
+/* SECCION IMAGEN BIENVENIDA */
+
+.section-img {
+  background-image: url(https://i.postimg.cc/zD2cq8Kd/pets1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  margin: 20px;
+  box-shadow: -1px 17px 38px 8px rgba(54, 54, 54, 0.308);
+}
+
+.welcome {
+  color: #2a182b;
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 2.5px;
+  padding-top: 20px;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+/* SECCION ELECCION MASCOTA */
+
+.section-pet-selection {
+  background-color: hsla(0, 0%, 0%, 0.144);
+  margin: 20px;
+  text-align: center;
+  height: 480px;
+  font-size: 1.4em;
+  letter-spacing: 1.5px;
+}
+
+.title-selection {
+  padding: 20px 0 35px 0;
+}
+
+.pet-img {
+  display: flex;
+  /* alineado horizontal */
+  justify-content: space-around;
+  /* alineado vertical */
+  align-items: center;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  color: aliceblue;
+  padding: 10px 25px;
+  cursor: pointer;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: transparent;
+  font-size: 0.8em;
+}
+
+input[type="submit"]:hover {
+  background: #02dadf;
+  box-shadow: -1px 17px 38px 8px rgba(54, 54, 54, 0.308);
+  transform: scale(1.1);
+}
+
+.pet-selection {
+  width: 300px;
+  height: 300px;
+  box-shadow: -1px 17px 38px 8px rgba(54, 54, 54, 0.308);
+}
+
+/* SECCION MISION ORGANIZACION */
+
+.org-mission {
+  background-color: hsla(0, 0%, 0%, 0.144);
+  height: 100%;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  box-shadow: -1px 17px 38px 8px rgba(54, 54, 54, 0.308);
+}
+
+.mission-title {
+  padding-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a182b;
+  padding: 20px;
+}
